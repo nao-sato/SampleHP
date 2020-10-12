@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>店舗案内｜nao's kitchen</title>
+<link rel="stylesheet" href="../stylesheet.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>>
+</script>
+<![endif]-->
+</head>
+
+<body>
+
+  <div id="wrap">
+
+  <!--ヘッダー-->
+    <header>
+      <h1>すべて手作り！安心の国産素材だけを厳選した、nao's kittchenです。</h1>
+      <a href="../index.html"><img src="../img/nao's.png" alt="ナオ'sキッチンロゴマーク" id="headerimg1"></a>
+    </header>
+
+    <!--メニュー（ナビ）-->
+    <nav>
+      <ul id="menu">
+        <a href="../index.html"><li><img src="../img/menu_home.gif" alt="ホーム"></li></a>
+
+        <a href="menu.html"><li><img src="../img/menu_menu.gif" alt="メニュー案内"></li><a/>
+
+        <a href="kodawari.html"><li><img src="../img/menu_quality.gif" alt="おいしさと安全"></li></a>
+
+        <a href="tenpoannai.html"><li><img src="../img/menu_store.gif" alt="店舗案内"></li></a>
+      </ul>
+    </nav>
+
+    <article>
+    <!--コンテンツ-->
+    <div id="contents">
+      <h3 id="otoiawasemidashi">お問い合わせ</h3>
+      <form class="form" action="index.html" method="post">
+        <h4 class="must">お名前</h4>
+        <ul>
+        <li><span>（姓）</span><input type="text" name="姓" data-kana="セイ" required /></li>
+        <li><span>（名）</span><input type="text" name="名" data-kana="メイ" required /></li>
+        </ul>
+
+        <hr>
+
+        <h4>フリガナ</h4>
+        <ul>
+        <li><span>（セイ）</span><input type="text" name="セイ" data-charcheck="kana" /></li>
+        <li><span>（メイ）</span><input type="text" name="メイ" data-charcheck="kana" /></li>
+        </ul>
+
+        <hr>
+
+
+        <h4 class="must">メールアドレス</h4>
+        <ul>
+        <li><span>メールアドレスの入力</span><input type="email" data-type="email" data-parent="mailfield" name="email" size="66%" required /></li>
+        <li><span>確認のためもう一度（必須）</span><input type="email" data-type="email" data-parent="mailfield" name="confirm_email" size="66%" required /></li>
+        </ul>
+
+        <hr>
+
+        <h4>メール本文</h4>
+        <ul>
+        <li><textarea name="備考欄" rows="10" cols="60" style="width:100%;"></textarea></li>
+        </ul>
+
+        <hr>
+
+        <h4 class="must">送信確認</h4>
+        <p><label class="checkbox clearfix"><input type="checkbox" required data-exc="1" name="送信確認" value="送信チェック済み" />上記送信内容を確認したらチェックを入れてください</label></p>
+
+        <div id="sendbox">
+        <button type="reset">リセット</button>&nbsp;&nbsp;<button type="submit" data-disabled="入力内容にエラーがあります">送信する</button>
+        </div>
+
+        <input type="text" name="お名前" value="">
+      </form>
+    </div>
+    </article>
+
+
+    <!--サイドナビ-->
+    <section>
+      <div id="sidenavi"><br><br>
+        <h2 id="goannai">ご案内</h2>
+        <div class="sidebox"><a href="menu.html"><img src="../img/menusyoukai.jpg" alt="メニューのご紹介"></a></div>
+
+        <div class="sidebox"><a href="menu.html"><img src="../img/new.jpg" alt="新メニュー追加のお知らせ"></a></div>
+
+        <div class="sidebox"><a href="kodawari.html"><img src="../img/kodawari.jpg" alt="さきちんカフェのこだわり"></a></div>
+
+        <div class="sidebox"><a href="tenpoannai.html"><img src="../img/tenpoannai.jpg" alt="店舗案内"></a></div>
+
+        <h2>ご予約やお持ち帰りもOK！</h2>
+        <p>できたてホカホカ！お電話でのご注文も承っています。ご予約やテイクアウトにどうぞ！詳しくは各店舗までお電話ください。</p>
+      </div>
+    </section>
+
+    <footer>
+      <p><a href="otoiawase.html">お問い合わせ</a></p>
+      <p>COPYRIGHT &#169; nao's kitchen</p>
+    </footer>
+  </div>
+
+
+
+    </body>
+ </html>

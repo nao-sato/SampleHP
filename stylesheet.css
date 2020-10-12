@@ -1,0 +1,205 @@
+@charset "UTF-8";
+*CSS Document*/
+
+article,aside,details,figcaption,figure,header,footer,hgroup,menu,nav,section{
+  display: block;
+}
+
+img{
+  border: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+a:link{
+  color:#630;
+}
+a:visited{
+  color: #630;
+}
+a:hover{
+  color: #630;
+  text-decoration: underline;
+}
+a:active{
+  color: #630;
+}
+
+body{
+  font-family: "ヒラギノ角ゴ Pro W3","Hirafino Kaku Gothic Pro","メイリオ", sans-serif;
+  color: #630;
+  line-height: 25px;
+}
+
+/*ｈ要素*/
+h1{
+  font-size: 0.9em;
+  margin: 0px;
+    background-image: linear-gradient(to bottom,#330000,#ffffff,#ffffff,#ffffff);
+}
+
+h2 {
+  font-size:0.9em;
+  margin:0px 0px 20px 0px;
+}
+
+#wrap{
+  margin:0 auto;
+  width: 960px;
+}
+
+/*ヘッダー*/
+header{
+  height: 280px;
+  width: 960px;
+  border: 1px #ccc soli
+}
+
+#headerimg1{
+  height: 250px;
+  width: 720px;
+  padding: 0px;
+  margin: 0px 0px 0px 100px
+}
+
+#menu{
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu li{
+  float: left;
+  list-style-type: none;
+}
+
+/*メインビジュアル*/
+.mainvisual{
+  width: 960px;
+  height: 460px;
+  margin: 10px 0px 30px 0px;
+}
+
+#maintext{
+  color: bisque;
+  font-family: "cursive",sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  text-shadow: 5px 5px 2px #000000;
+  margin-left: 10px;
+  position: relative;bottom: 110px
+}
+#mainimg{
+  width: 960px;
+  height: 450px;
+}
+
+/*コンテンツ*/
+#contents{
+  width: 615px;
+  float: left;
+}
+
+#newsbox{
+  width: 593px;
+  height: auto;
+  border: solid 1px #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.minibox{
+  width: 135px;
+  height: 135px;
+  margin: 0px 5px 10px 5px;
+  float: left;
+}
+
+.midashi{
+  border-bottom: dashed 2px #c30;
+  font-weight: bold;
+  color: #c30;
+  font-size: 1.2em;
+}
+
+.tablestyle{
+  text-align: left;
+  width: 593px;
+}
+
+.tablestyle td{
+  border-bottom: dashed 1px #ccc;
+  margin-left: 6px;
+}
+
+.tablestyle th{
+  background-color: #630
+  color:#FFF;
+  text-align: center;
+}
+
+#newsbox p{
+  border-bottom:dashed 1px #ccc;
+}
+
+.contentsbox{
+  width:593px;
+  height:auto;
+  border:solid 1px #CCC;
+  padding:10px;
+  margin-bottom:15px;
+  background-color:#FFF;
+}
+
+.imgbox {
+  width:230px;
+  height:167px;
+  float:right;
+  margin:10px 0px 10px 25px;
+}
+
+#otoiawasemidashi{
+  text-align: center;
+  border-bottom: outset 2px #f00
+}
+
+form li{
+  list-style-type: none;
+}
+
+.clear{
+  clear: both;
+}
+
+/*サイドナビ*/
+#sidenavi{
+  width: 330px;
+  margin-left: 15px;
+  float: left;
+}
+
+#goannai{
+  font-size:1.2em;
+  border-bottom:solid 2px #C30;
+  margin:0px 0px 15px 0px;
+  color:#C30;
+}
+
+.sidebox {
+  width:330px;
+  height:130px;
+  margin-bottom:15px;
+}
+
+footer{
+  clear: both;
+  height: 50px;
+  text-align: center;
+  font-size: 0.85em;
+  background-image: url(img/footer.gif);
+  background-repeat: no-repeat;
+  padding-top: 30px;
+
+  display: block;
+}
